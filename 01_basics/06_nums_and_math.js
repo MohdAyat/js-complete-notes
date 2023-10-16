@@ -5,14 +5,13 @@ const balance = new Number(100)
 // console.log(balance);
 
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
+// console.log(balance.toFixed(1));//100.0
 
 const otherNumber = 123.8966
-
-// console.log(otherNumber.toPrecision(4));
+// console.log(otherNumber.toPrecision(4));//123.9(significant digits)
 
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN'));//10,00,000
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
@@ -31,4 +30,4 @@ console.log(Math.floor(Math.random()*10) + 1);
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)//max-min to shift value and +1 to xclude zero case and +min to shift value exactly and floor to get int values
