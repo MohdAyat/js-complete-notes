@@ -27,8 +27,8 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username = "sam"){
-    if(!username){
+function loginUserMessage(username = "sam"){//if username has not been passed then it will take sam as username otherwise values will be overriden
+    if(!username){//undefined is assumed as false
         console.log("PLease enter a username");
         return
     }
