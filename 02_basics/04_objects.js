@@ -54,7 +54,7 @@ users[1].email//accessing particular objs property
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));//asking if this obj has this property or not
 
-
+//object destructuring and JSON api from here
 const course = {
     coursename: "js in hindi",
     price: "999",
@@ -63,11 +63,11 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course //another way to call property of course obj
 
 // console.log(courseInstructor);
 console.log(instructor);
-
+//below is JSON an obj or arr data come from database in this format
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
