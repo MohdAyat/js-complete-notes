@@ -46,13 +46,13 @@ if (true) {
 
 console.log(addone(5))
 
-function addone(num){
+function addone(num){ //if func is defined like this than it can be accessed before its definition
     return num + 1
 }
 
 
 
 addTwo(5)
-const addTwo = function(num){
+const addTwo = function(num){ //however in this type of definition func can't be accessed before its definition
     return num + 2
 }
